@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 
-public class StudentForm extends JFrame implements ActionListener
+public class StudentForrm extends JFrame implements ActionListener
 {
     private String[] btnList = {"Add", "Edit", "Delete", "View"};
 
@@ -26,7 +26,7 @@ public class StudentForm extends JFrame implements ActionListener
     private JTextArea displayArea;
     private ArrayList<String> hobbiesList=new ArrayList<>();
     private ArrayList<Student> students=new ArrayList<>();
-    public StudentForm()
+    public StudentForrm()
     {
         setTitle("Student Registration");
         setSize(600,500);
